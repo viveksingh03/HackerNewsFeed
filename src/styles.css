@@ -1,1 +1,53 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    display: block;
+    margin: 0;
+}
+
+.col-width-8 {
+    width: 8%;
+}
+
+.col-vote-count {
+    width: 5%;
+}
+
+.col-news-details {
+    width: 100%;
+}
+
+/* Spacing */
+
+.padding-left-right {
+    padding: 0 10px;
+}
+
+/* Spacing */
+
+.first-row {
+    background-color: #f6f6ef;
+}
+
+.alternate-row {
+    background-color: #deded5;
+}
+
+.details-container {}
+
+@media screen and (min-width:1200px) {
+    .container {
+        width: calc(85% - 10px);
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .container {
+        width: 100%;
+    }
+}
