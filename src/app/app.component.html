@@ -8,13 +8,14 @@
     </li>
     <ng-container *ngFor="let item of newsFeedData?.hits">
       <li class="table-row">
-        <div data-label="Comments" class="col col-1 font-weight-bold">
-          <span class="margin-left-15">{{item.num_comments}}</span></div>
-        <div data-label="Vote Count" class="col col-2 font-weight-bold {{item.points|dynamicClass}}">
-          <span class="margin-left-20">{{item.points}}</span></div>
+        <div data-label="Comments" class="col col-1">
+          <span class="margin-left-15 font-weight-bold ">{{item.num_comments}}</span></div>
+        <div data-label="Vote Count" class="col col-2 {{item.points|dynamicClass}}">
+          <span class="margin-left-20 font-weight-bold ">{{item.points}}</span></div>
         <div data-label="UpVote" class="col col-3">
           <a>
-            <img id="upvoteImg" class="margin-left-15" src="../assets/icons/grayarrow.gif" alt="UpVote" (click)="upVoteNews(item)">
+            <img id="upvoteImg" class="margin-left-15" src="../assets/icons/grayarrow.gif" alt="UpVote"
+              (click)="upVoteNews(item)">
           </a>
         </div>
         <div data-label="News details" class="col col-4">
