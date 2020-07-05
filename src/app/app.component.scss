@@ -78,6 +78,10 @@ h2 {
     color: #b14b15;
 }
 
+.overflow-scroll {
+    overflow: scroll;
+}
+
 .responsive-table {
     li {
         padding: 15px 10px;
@@ -145,7 +149,7 @@ h2 {
             display: flex;
             padding: 10px 0;
             &:before {
-                color: #6c7a89;
+                color: black;
                 padding-right: 10px;
                 content: attr(data-label);
                 flex-basis: 30%;

@@ -32,4 +32,9 @@
     <span class="font-weight-bold">|</span>
     <a class="font-weight-bold" (click)="nextPage()">Next</a>
   </footer>
+  <div class="overflow-scroll">
+    <google-chart [type]="chartType" [data]="chartData" columnNames="columnNames" [options]="options" [width]="width"
+      [height]="height">
+    </google-chart>
+  </div>
 </div>
