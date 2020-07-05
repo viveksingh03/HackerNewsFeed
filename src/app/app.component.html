@@ -14,7 +14,7 @@
           <span class="margin-left-20">{{item.points}}</span></div>
         <div data-label="UpVote" class="col col-3">
           <a>
-            <img class="margin-left-15" src="../assets/icons/grayarrow.gif" alt="UpVote" (click)="upVoteNews(item)">
+            <img id="upvoteImg" class="margin-left-15" src="../assets/icons/grayarrow.gif" alt="UpVote" (click)="upVoteNews(item)">
           </a>
         </div>
         <div data-label="News details" class="col col-4">
@@ -22,7 +22,7 @@
           <a href="{{item.url}}" target="_blank" class="color-gray font-small">({{item.url | domainName}}) by </a>
           <span class="font-weight-bold"> {{item.author}} </span>
           <span class="color-gray font-small">{{item.created_at | getHours}}</span>
-          <span>[</span><a class="font-weight-bold" (click)="hideNewsRow(item)">hide</a><span>]</span>
+          <span>[</span><a id="hideNews" class="font-weight-bold" (click)="hideNewsRow(item)">hide</a><span>]</span>
         </div>
       </li>
     </ng-container>
