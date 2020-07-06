@@ -14,7 +14,7 @@ Upvotes is stored in local storage and on browser refresh the updated upvotes is
 
 Deleting/Hiding the news is taking place in newsfeed service.
 
-The project PWA compatible please run thefollowing commands to run it on the Localhost.
+The project PWA compatible please run the following commands to run it on the Localhost.
 1. `npm install --global http-server`
 2. `ng build --prod`
 3. `http-server -p 8080 -c-1 dist/HackerNewsFeed`
