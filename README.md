@@ -13,7 +13,7 @@ News Feed at the start is loaded base on 'front_page' tag and the corresponding 
 Upvotes is stored in local storage and on browser refresh the updated upvotes is assigned to the given story.
 
 The project PWA compatible please run thefollowing commands to run it on the Localhost.
-`npm install --global http-server`
+`npm install --global http-server` then
 `http-server -p 8080 -c-1 dist/HackerNewsFeed`
 
 Test Cases is written for AppComponent.
