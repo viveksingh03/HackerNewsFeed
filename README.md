@@ -20,3 +20,5 @@ The project PWA compatible please run the following commands to run it on the Lo
 3. `http-server -p 8080 -c-1 dist/HackerNewsFeed`
 
 Test Cases is written for AppComponent.
+
+Line chart is developed using `angular-google-charts`.
